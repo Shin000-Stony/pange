@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A.Zakhy Maharizi Pangerang Al Anshari - Portofolio</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg width='32' height='32' viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='16' cy='16' r='15' fill='%2300d4ff' stroke='%2300d4ff' stroke-width='1'/%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="nav-logo">Portofolio</h1>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link active">Beranda</a></li>
+                <li><a href="skills.html" class="nav-link">Keterampilan</a></li>
+                <li><a href="hobby.html" class="nav-link">Hobi</a></li>
+                <li><a href="projects.html" class="nav-link">Proyek</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <div class="profile-photo">
+                <img src="assets/images/profil.jpg" alt="Profile Photo">
+            </div>
+            <div class="hero-text">
+                <h1>A.Zakhy Maharizi Pangerang Al Anshari</h1>
+                <p class="hero-subtitle">Student, Network Engineer & Linux SysAdmin</p>
+                <div class="hero-details">
+                    <div class="detail-item">
+                        <span class="detail-label">School:</span>
+                        <span class="detail-value">SMKS TEKNOLOGI INFORMATIKA BULUKUMBA</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Birth Date:</span>
+                        <span class="detail-value">May 25, 2008</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Address:</span>
+                        <span class="detail-value">JL. Poros Allu Kajang</span>
+                    </div>
+                </div>
+                <div class="bio">
+                    <h2>About Me</h2>
+                    <p id="bio-text"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="education-section">
+        <h2>Riwayat Pendidikan</h2>
+        <div class="education-table-container">
+            <table class="education-table">
+                <thead>
+                    <tr>
+                        <th>Nama Sekolah</th>
+                        <th>Jenjang Pendidikan</th>
+                        <th>Tahun Masuk</th>
+                        <th>Tahun Lulus</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>SDN 225 Allu</td>
+                        <td>Sekolah Dasar</td>
+                        <td>2014</td>
+                        <td>2020</td>
+                    </tr>
+                    <tr>
+                        <td>SMPN 10 Bulukumba</td>
+                        <td>Sekolah Menengah Pertama</td>
+                        <td>2020</td>
+                        <td>2023</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section class="music-players-section">
+        <h2>Lagu Favorit Saya</h2>
+        <div class="music-container">
+            <div class="music-players-grid">
+            <div class="music-player-card">
+                <div class="album-disc">
+                    <img src="assets/images/helena.jpg" alt="Helena - MCR" class="album-cover">
+                    <div class="glow-ring"></div>
+                </div>
+                <div class="song-title"></div>
+                <div class="player-controls">
+                    <button class="control-btn play-pause-btn"><i class="fas fa-play"></i></button>
+                </div>
+                <div class="progress-container">
+                    <div class="progress-bar">
+                        <div class="progress-fill"></div>
+                    </div>
+                    <div class="time-display">
+                        <span class="current-time">0:00</span>
+                        <span class="total-time">3:25</span>
+                    </div>
+                </div>
+                <audio src="assets/song/helena.mp3" preload="metadata"></audio>
+            </div>
+            <div class="music-player-card">
+                <div class="album-disc">
+                    <img src="assets/images/payung-teduh.jpg" alt="Untuk perempuan yang sedang dalam pelukan - Payung Teduh" class="album-cover">
+                    <div class="glow-ring"></div>
+                </div>
+                <div class="song-title"></div>
+                <div class="player-controls">
+                    <button class="control-btn play-pause-btn"><i class="fas fa-play"></i></button>
+                </div>
+                <div class="progress-container">
+                    <div class="progress-bar">
+                        <div class="progress-fill"></div>
+                    </div>
+                    <div class="time-display">
+                        <span class="current-time">0:00</span>
+                        <span class="total-time">5:42</span>
+                    </div>
+                </div>
+                <audio src="assets/song/payung-teduh.mp3" preload="metadata"></audio>
+            </div>
+            <div class="music-player-card">
+                <div class="album-disc">
+                    <img src="assets/images/alexandra.jpg" alt="Alexandra - Reality club" class="album-cover">
+                    <div class="glow-ring"></div>
+                </div>
+                <div class="song-title"></div>
+                <div class="player-controls">
+                    <button class="control-btn play-pause-btn"><i class="fas fa-play"></i></button>
+                </div>
+                <div class="progress-container">
+                    <div class="progress-bar">
+                        <div class="progress-fill"></div>
+                    </div>
+                    <div class="time-display">
+                        <span class="current-time">0:00</span>
+                        <span class="total-time">4:08</span>
+                    </div>
+                </div>
+                <audio src="assets/song/alexandra.mp3" preload="metadata"></audio>
+            </div>
+            <div class="music-player-card">
+                <div class="album-disc">
+                    <img src="assets/images/cincin.jpg" alt="Cincin - Hindia" class="album-cover">
+                    <div class="glow-ring"></div>
+                </div>
+                <div class="song-title"></div>
+                <div class="player-controls">
+                    <button class="control-btn play-pause-btn"><i class="fas fa-play"></i></button>
+                </div>
+                <div class="progress-container">
+                    <div class="progress-bar">
+                        <div class="progress-fill"></div>
+                    </div>
+                    <div class="time-display">
+                        <span class="current-time">0:00</span>
+                        <span class="total-time">4:26</span>
+                    </div>
+                </div>
+                <audio src="assets/song/cincin.mp3" preload="metadata"></audio>
+            </div>
+            <div class="music-player-card">
+                <div class="album-disc">
+                    <img src="assets/images/december.jpg" alt="Placeholder Song 1" class="album-cover">
+                    <div class="glow-ring"></div>
+                </div>
+                <div class="song-title">Coming Soon</div>
+                <div class="player-controls">
+                    <button class="control-btn play-pause-btn"><i class="fas fa-play"></i></button>
+                </div>
+                <div class="progress-container">
+                    <div class="progress-bar">
+                        <div class="progress-fill"></div>
+                    </div>
+                    <div class="time-display">
+                        <span class="current-time">0:00</span>
+                        <span class="total-time">0:00</span>
+                    </div>
+                </div>
+                <audio src="assets/song/december.mp3" preload="metadata"></audio>
+            </div>
+            <div class="music-player-card">
+                <div class="album-disc">
+                    <img src="assets/images/the-world-is-ugly.jpg" alt="Placeholder Song 2" class="album-cover">
+                    <div class="glow-ring"></div>
+                </div>
+                <div class="song-title">Coming Soon</div>
+                <div class="player-controls">
+                    <button class="control-btn play-pause-btn"><i class="fas fa-play"></i></button>
+                </div>
+                <div class="progress-container">
+                    <div class="progress-bar">
+                        <div class="progress-fill"></div>
+                    </div>
+                    <div class="time-display">
+                        <span class="current-time">0:00</span>
+                        <span class="total-time">0:00</span>
+                    </div>
+                </div>
+                <audio src="assets/song/the-world-is-ugly.mp3" preload="metadata"></audio>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/pangerang-ansar-568816378?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQPNTY3MDY3MzQzMzUyNDI3AAGn7A2zlBXgCU47CjKgOv-a7FSZnMlEMHH9AcIFpb0oe6Be6exIfca2xmweNVk_aem_XERR2jildOP2bBpnligCXQ" class="social-icon"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/zkhymhrzp_?igsh=anpjcXo1aG1ma3Jj" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="pangerangansar02@gmail.com" class="social-icon"><i class="fas fa-envelope"></i></a>
+        </div>
+    </footer>
+
+    <div id="particles-js"></div>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
